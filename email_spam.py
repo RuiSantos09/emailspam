@@ -8,7 +8,7 @@ number_of_emails = 100  # Number of emails
 
 while number_of_emails > 0:
     language_list = ['english','german','russian','italian','french','spanish','dutch','czech','hungarian','arabic','afrikaans','hebrew','hindi','japanese','korean','danish','greek','latin','somali','samoan','urdu','zulu','nepali']
-    swear_list = ['Porra', 'Foda-se', 'Caralho', 'Cona', 'Culhão', 'Merda', 'Puta', 'Cabrão']
+    swear_list = ['Porra', 'Foda-se', 'Caralho', 'Cona', 'Colhão', 'Merda', 'Puta', 'Cabrão']
 
     sender_email = 
     receiver_email = 
