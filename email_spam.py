@@ -8,14 +8,14 @@ number_of_emails = 100  # Number of emails
 
 while number_of_emails > 0:
     language_list = ['english','german','russian','italian','french','spanish','dutch','czech','hungarian','arabic','afrikaans','hebrew','hindi','japanese','korean','danish','greek','latin','somali','samoan','urdu','zulu','nepali']
-    swear_list = ['Porra', 'Foda-se', 'Caralho', 'Cona', 'Colhão', 'Merda', 'Puta', 'Cabrão']
+    word_list = ['''List of words''']
 
     sender_email = 
     receiver_email = 
     rand_language = random.randint(0,22)
     rand_swear = random.randint(0,7)
     language = language_list[rand_language]
-    swear = swear_list[rand_swear]
+    swear = word_list[rand_swear]
     message = GoogleTranslator(source="portuguese", target=language).translate(text=swear) + '\n ' + swear + ' ----> ' + language
 
     text_type = 'plain'
